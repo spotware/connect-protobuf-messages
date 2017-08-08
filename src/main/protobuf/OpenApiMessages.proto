@@ -8,6 +8,7 @@ option java_package = "com.xtrader.protocol.proto.openapi";
 
 option java_outer_classname = "ContainerOpenApiMessages";
 
+import "CommonModelMessages.proto";
 import "OpenApiModelMessages.proto";
 
 //+------------------------------------------------------------------+

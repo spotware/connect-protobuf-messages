@@ -8,6 +8,8 @@ option java_package = "com.xtrader.protocol.proto.openapi.model";
 
 option java_outer_classname = "ContainerOpenApiModelMessages";
 
+import "CommonModelMessages.proto";
+
 //+------------------------------------------------------------------+
 //|               Open Trading API Enumerates                        |
 //+------------------------------------------------------------------+
@@ -180,22 +182,4 @@ enum ProtoOATrendbarPeriod {
     D1 = 12;
     W1 = 13;
     MN1 = 14;
-}
-
-enum ProtoTradeSide {
-    BUY = 1;
-    SELL = 2;
-}
-
-enum ProtoQuoteType {
-    BID = 1;
-    ASK = 2;
-}
-
-enum ProtoTimeInForce {
-    GOOD_TILL_DATE = 1;
-    GOOD_TILL_CANCEL = 2;
-    IMMEDIATE_OR_CANCEL = 3;
-    FILL_OR_KILL = 4;
-    MARKET_ON_OPEN = 5;
 }
