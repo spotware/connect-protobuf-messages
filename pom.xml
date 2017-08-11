@@ -33,9 +33,6 @@
               <goal>run</goal>
             </goals>
             <configuration>
-              <includeDirectories>
-                <include>src/main/protobuf</include>
-              </includeDirectories>
               <inputDirectories>
                 <include>src/main/protobuf</include>
               </inputDirectories>
